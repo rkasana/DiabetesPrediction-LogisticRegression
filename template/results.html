@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction</title>
+    <link rel = "stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">"
+    <link rel = "stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+<div class = "table-users">
+    <div class="header">Prediction </div>
+    {% if prediction==1 %}
+         <h1> I am sorry. You are Diabetic!</h1>
+    {% else %}
+         <h1>Congratulations! you are non-diabetic</h1>
+    {% endif %}
+</div>
+</body>
+</html>
