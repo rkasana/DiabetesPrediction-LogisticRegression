@@ -1,0 +1,22 @@
+certifi==2020.6.20
+click==7.1.2
+Flask==1.1.2
+Flask-Cors==3.0.8
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib==0.16.0
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1594371495811/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.19.1
+pandas @ file:///tmp/build/80754af9/pandas_1592841632039/work
+python-dateutil==2.8.1
+pytz==2020.1
+scikit-learn==0.22.1
+scipy==1.5.2
+six==1.15.0
+tensorboard==2.0.2
+tensorflow==2.0.0
+tensorflow-estimator==2.0.1
+Werkzeug==1.0.1
